@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="uz">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qadimgi Misr: Muhandislik va Hayot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/blood.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .reveal h1, .reveal h2, .reveal h3 { color: #d4af37; text-transform: none; text-shadow: 2px 2px 4px #000; }
+        .reveal p { font-size: 22px; line-height: 1.5; text-align: justify; }
+        .flex-box { display: flex; align-items: center; justify-content: space-between; gap: 25px; margin-top: 15px; }
+        .flex-box .text-col { flex: 1.2; }
+        .flex-box .img-col { flex: 0.8; }
+        .flex-box img { width: 100%; max-height: 300px; object-fit: cover; border-radius: 12px; border: 3px solid #d4af37; box-shadow: 0 6px 15px rgba(0,0,0,0.6); }
+        .chart-container { width: 90%; height: 320px; margin: 10px auto; background: rgba(0,0,0,0.5); padding: 15px; border-radius: 12px; border: 1px solid #d4af37; }
+    </style>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+
+        <!-- 1-slayd (RASM 1) -->
+        <section>
+            <h2>Misr sivilizatsiyasining oltin davri</h2>
+            <div class="flex-box">
+                <div class="text-col">
+                    <p>Shimoli-sharqiy Afrikada joylashgan Qadimgi Misr insoniyat tarixidagi eng uzoq davom etgan qudratli davlatlardan biridir. Uch ming yildan ortiq vaqt mobaynida bu hududda oʻziga xos davlatchilik, mukammal meʼmorchilik, murakkab diniy qarashlar va yuksak ilm-fan uzluksiz ravishda shakllanib, jahon tarixini boyitgan.</p>
+                </div>
+                <div class="img-col">
+                    <img src="http://googleusercontent.com/image_collection/image_retrieval/5300961538287096297_0" alt="Giza piramidalari">
+                </div>
+            </div>
+        </section>
+
+        <!-- 2-slayd (RASM 2) -->
+        <section>
+            <h2>Nil vodiysi va tabiiy geografiya</h2>
+            <div class="flex-box">
+                <div class="text-col">
+                    <p>Misrliklar oʻz yurtlarini «Kemet», yaʼni unumdor «Qora yer» deb atashgan. Bunga har yili yozda toshib, dalalarga boy loyqa olib keluvchi Nil daryosi sabab boʻlgan. Atrofdagi qizgʻish sahrolar esa mamlakatni tashqi dushmanlar hujumidan tabiiy qalqon sifatida ishonchli himoya qilib turgan.</p>
+                </div>
+                <div class="img-col">
+                    <img src="http://googleusercontent.com/image_collection/image_retrieval/8262898179385829067_0" alt="Nil daryosi">
+                </div>
+            </div>
+        </section>
+
+        <!-- 3-slayd -->
+        <section>
+            <h2>Irrigatsiya va suv muhandisligi</h2>
+            <p>Nil daryosining injiq toshqinlarini jilovlash maqsadida misrliklar murakkab kanallar, dambalar va suv omborlari tizimini barpo etishgan. Balandlikdagi dalalarga suv chiqarish uchun «shaduf» deb nomlangan maxsus richagli quduq moslamasi ixtiro qilinib, yil davomida moʻl-koʻl hosil olish imkoniyati toʻliq yaratilgan edi.</p>
+        </section>
+
+        <!-- 4-slayd (JONLI GRAFIK 1 - Line Chart) -->
+        <section>
+            <h3>Aholi sonining oʻsish dinamikasi</h3>
+            <p style="font-size: 17px; text-align:center;">Sugʻorish tizimining rivojlanishi va barqarorlik natijasida Misr aholisi ming yillar davomida muntazam koʻpayib borgan. Grafik nuqtalari ustiga bosib koʻrsatkichlarni koʻring:</p>
+            <div class="chart-container">
+                <canvas id="aholiChart"></canvas>
+            </div>
+        </section>
+
+        <!-- 5-slayd -->
+        <section>
+            <h2>Davlat boshqaruvi va byurokratiya</h2>
+            <p>Mamlakat tepasida cheksiz hokimiyatga ega firʼavn turgan boʻlsa-da, kundalik davlat ishlarini Bosh vazir — «chaty» boshqargan. Davlat negizini soliq yigʻish, yerlarni roʻyxatga olish va qonun ustuvorligini taʼminlash bilan shugʻullanuvchi qirq ikkita maʼmuriy viloyat — nomlar tashkil etgan.</p>
+        </section>
+
+        <!-- 6-slayd -->
+        <section>
+            <h2>Qonunchilik va Maat tamoyili</h2>
+            <p>Misrda adolat, haqiqat va kosmik tartib maʼbudasi Maat qonunlarning asosi hisoblangan. Sudlarda poraxoʻrlik qattiq qoralangan va jinoyatlar uchun surgun qilish, mol-mulkni musodara etish yoki majburiy mehnatga jalb qilish kabi aniq jazo turlari barcha fuqarolarga teng ravishda qoʻllanilgan.</p>
+        </section>
+
+        <!-- 7-slayd (JONLI GRAFIK 2 - Polar Area) -->
+        <section>
+            <h3>Ijtimoiy qatlamlar ulushi (%)</h3>
+            <p style="font-size: 17px; text-align:center;">Misr jamiyati qatʼiy iyerarxiyaga asoslangan boʻlib, aholining asosiy qismini qishloq mehnatkashlari va hunarmandlar tashkil etgan. Diagramma boʻlaklari ustiga bosing:</p>
+            <div class="chart-container">
+                <canvas id="jamiyatChart"></canvas>
+            </div>
+        </section>
+
+        <!-- 8-slayd -->
+        <section>
+            <h2>Dehqonlar va hunarmandlar hayoti</h2>
+            <p>Aholining asosiy qismini tashkil etuvchi dehqonlar bugʻdoy, arpa va zigʻir yetishtirib, hosilning maʼlum qismini davlat omborlariga soliq sifatida topshirgan. Toshkesarlar, kulollar, zargarlar va duradgorlar esa shaharlarda yashab, ibodatxonalar hamda zodagonlar uchun betakror sanʼat asarlarini yaratish bilan mashgʻul boʻlishgan.</p>
+        </section>
+
+        <!-- 9-slayd -->
+        <section>
+            <h2>Oila va ayollarning huquqlari</h2>
+            <p>Qadimgi dunyoning boshqa davlatlaridan farqli oʻlaroq, Misrda ayollar yuksak huquqiy maqomga ega boʻlishgan. Ular mustaqil ravishda yer-mulk sotib olish, sudda guvohlik berish, shartnomalar tuzish va meros qoldirish huquqiga ega boʻlib, oilada uy bekasi sifatida qattiq hurmat qilingan.</p>
+        </section>
+
+        <!-- 10-slayd -->
+        <section>
+            <h2>Kiyim-kechak, pardoz va gigiyena</h2>
+            <p>Issiq iqlim tufayli misrliklar oq zigʻir matodan tikilgan yengil liboslar kiyishgan. Tozalik va gigiyena juda muhim sanalib, erkaklar ham, ayollar ham koʻzlarini quyosh nuri hamda infeksiyalardan asrash maqsadida maxsus qora surma va yashil malaxit boʻyoqlari bilan boʻyab yurishgan.</p>
+        </section>
+
+        <!-- 11-slayd -->
+        <section>
+            <h2>Taʼlim tizimi: «Hayot uylari»</h2>
+            <p>Ibodatxonalar qoshidagi «Per-Anx» — «Hayot uylari» deb nomlangan maxsus maktablarda boʻlajak mirzolar va amaldorlar tayyorlangan. Oʻquvchilar yillar davomida sopol parchalariga murakkab iyerogliflarni yozishni, arifmetik hisob-kitoblarni, geografiya va qadimgi adabiy matnlarni koʻchirishni qunt bilan oʻzlashtirganlar.</p>
+        </section>
+
+        <!-- 12-slayd (RASM 3) -->
+        <section>
+            <h2>Papirus ishlab chiqarish sanoati</h2>
+            <div class="flex-box">
+                <div class="text-col">
+                    <p>Nil deltasida oʻsuvchi papirus oʻsimligi poyalarini yupqa kesib, ustma-ust presslash va quyoshda quritish orqali silliq qogʻoz olingan. Misr asrlar davomida Oʻrta yer dengizi davlatlariga papirus eksport qilish boʻyicha yagona monopolist boʻlib, bundan juda katta daromad koʻrgan.</p>
+                </div>
+                <div class="img-col">
+                    <img src="http://googleusercontent.com/image_collection/image_retrieval/3272891034146489182_0" alt="Papirus qo'lyozmasi">
+                </div>
+            </div>
+        </section>
+
+        <!-- 13-slayd (RASM 4) -->
+        <section>
+            <h2>Yozuv turlari va kriptografiya</h2>
+            <div class="flex-box">
+                <div class="text-col">
+                    <p>Tosh obidalar va maqbaralarga muqaddas tasviriy yozuv — iyerogliflar oʻyib yozilgan. Kundalik hujjatlar va hisobotlarni tezroq yozish uchun esa kohinlar soddalashtirilgan «iyeratik» yozuvdan, keyingi davrlarda esa xalq orasida keng tarqalgan «demotik» tez yozuv uslubidan unumli foydalanishgan.</p>
+                </div>
+                <div class="img-col">
+                    <img src="http://googleusercontent.com/image_collection/image_retrieval/17987132043344674806_0" alt="Misr iyerogliflari">
+                </div>
+            </div>
+        </section>
+
+        <!-- 14-slayd (RASM 5) -->
+        <section>
+            <h2>Ulkan tosh meʼmorchiligi sirlari</h2>
+            <div class="flex-box">
+                <div class="text-col">
+                    <p>Ogʻirligi bir necha tonna keladigan ohaktosh va granit bloklar Asvon konlaridan kema orqali keltirilgan. Quruvchilar gʻildirak boʻlmagan davrda yogʻoch chanalar, hoʻllangan qum yoʻlaklar va ulkan loy panduslar yordamida toshlarni piramida choʻqqisiga hayratlanarli aniqlikda olib chiqishgan.</p>
+                </div>
+                <div class="img-col">
+                    <img src="http://googleusercontent.com/image_collection/image_retrieval/15686998482982704427_0" alt="Buyuk Sfinks">
+                </div>
+            </div>
+        </section>
+
+        <!-- 15-slayd (JONLI GRAFIK 3 - Bar Chart) -->
+        <section>
+            <h3>Piramidalarga sarflangan tosh hajmi</h3>
+            <p style="font-size: 17px; text-align:center;">Buyuk piramidalar qurilishida millionlab kub metr tosh bloklari ishlatilgan. Eng yirik inshootlar hajmini solishtirish uchun ustunlar ustiga bosing:</p>
+            <div class="chart-container">
+                <canvas id="toshChart"></canvas>
+            </div>
+        </section>
+
+        <!-- 16-slayd (RASM 6) -->
+        <section>
+            <h2>Karnak va Luksor majmualari</h2>
+            <div class="flex-box">
+                <div class="text-col">
+                    <p>Yangi podsholik davrida Fiva shahri markazida Amon-Ra xudosiga bagʻishlangan dunyodagi eng katta diniy majmua — Karnak ibodatxonasi qad rostlagan. Uning gipostil zalidagi yuz oʻttiz toʻrtta ulkan ustun oʻzining mahobati va boʻrtma naqshlari bilan insonni hayratga soladi.</p>
+                </div>
+                <div class="img-col">
+                    <img src="http://googleusercontent.com/image_collection/image_retrieval/9033234352310772290_0" alt="Karnak ibodatxonasi">
+                </div>
+            </div>
+        </section>
+
+        <!-- 17-slayd (RASM 7) -->
+        <section>
+            <h2>Abu-Simbel: Qoyadagi moʻjiza</h2>
+            <div class="flex-box">
+                <div class="text-col">
+                    <p>Firʼavn Ramzes Ikkinchi tomonidan Nubiya chegarasida yaxlit togʻ qoyasini oʻyib qurilgan Abu-Simbel ibodatxonasi astronomik moʻjizadir. Yiliga faqat ikki marta — firʼavn tugʻilgan va taxtga oʻtirgan kunlari quyosh nuri ichkaridagi haykallarni toʻgʻridan-toʻgʻri yoritib turadigan qilib loyihalangan.</p>
+                </div>
+                <div class="img-col">
+                    <img src="http://googleusercontent.com/image_collection/image_retrieval/88951981165397941_0" alt="Abu Simbel">
+                </div>
+            </div>
+        </section>
+
+        <!-- 18-slayd (RASM 8) -->
+        <section>
+            <h2>Shohlar vodiysi va Tutanxamon</h2>
+            <div class="flex-box">
+                <div class="text-col">
+                    <p>Qabr oʻgʻrilaridan himoyalanish uchun firʼavnlar piramidalar oʻrniga yashirin «Shohlar vodiysi» qoyalariga dafn etila boshlangan. 1922-yilda Govard Karter tomonidan topilgan yosh firʼavn Tutanxamonning daxlsiz maqbarasi va sof oltin niqobi XX asrning eng buyuk arxeologik kashfiyotiga aylandi.</p>
+                </div>
+                <div class="img-col">
+                    <img src="http://googleusercontent.com/image_collection/image_retrieval/14341202077573004196_0" alt="Tutanxamon niqobi">
+                </div>
+            </div>
+        </section>
+
+        <!-- 19-slayd (RASM 9) -->
+        <section>
+            <h2>Amarna davri va Nefertiti</h2>
+            <div class="flex-box">
+                <div class="text-col">
+                    <p>Firʼavn Exnaton eski koʻpxudolikdan voz kechib, yagona quyosh diski — Atonga sigʻinishni joriy qilgan. Shu davrda sanʼatda qatʼiy qoliplar buzilib, tabiiylik va realizm paydo boʻlgan; haykaltarosh Tutmos yaratgan goʻzal malika Nefertiti byusti buning yorqin isbotidir.</p>
+                </div>
+                <div class="img-col">
+                    <img src="http://googleusercontent.com/image_collection/image_retrieval/9187834561400470090_0" alt="Nefertiti byusti">
+                </div>
+            </div>
+        </section>
+
+        <!-- 20-slayd -->
+        <section>
+            <h2>Harbiy sanʼat va jang aravalari</h2>
+            <p>Giksoslar istilosidan soʻng misrliklar ot qoʻshilgan yengil ikki gʻildirakli jang aravalari, tarkibiy kamonlar va «xopesh» deb ataluvchi oʻroqsimon bronza qilichlarni oʻzlashtirgan. Bu harbiy islohotlar Misrni Yaqin Sharqdagi eng qudratli imperiyaga aylantirib, hududlarini kengaytirishga xizmat qilgan.</p>
+        </section>
+
+        <!-- 21-slayd -->
+        <section>
+            <h2>Tashqi savdo va Punt ekspeditsiyalari</h2>
+            <p>Misrda pul birligi boʻlmagani sababli savdo ayirboshlash va kumush-oltin ogʻirlik oʻlchovi — «deben» asosida yuritilgan. Ayol firʼavn Xatshepsut Qizil dengiz orqali afsonaviy Punt mamlakatiga yirik dengiz ekspeditsiyasi yuborib, u yerdan xushboʻy tutatqilar, fil suyagi va oltin keltirgan.</p>
+        </section>
+
+        <!-- 22-slayd (JONLI GRAFIK 4 - Doughnut Chart) -->
+        <section>
+            <h3>Tashqi savdo va import tarkibi (%)</h3>
+            <p style="font-size: 17px; text-align:center;">Misr oʻzida kamyob boʻlgan yogʻoch, kumush va xushboʻy moddalarni qoʻshni davlatlardan keltirgan. Doira qismlari ustiga bosib koʻring:</p>
+            <div class="chart-container">
+                <canvas id="savdoChart"></canvas>
+            </div>
+        </section>
+
+        <!-- 23-slayd -->
+        <section>
+            <h2>Tibbiyot va Ebers papirusi</h2>
+            <p>Misrlik tabiblar yurak va qon tomirlari tizimini yaxshi tushunishgan, tish plombalash hamda bosh chanogʻi jarrohligini muvaffaqiyatli amalga oshirishgan. Bizgacha yetib kelgan «Ebers» va «Edvin Smit» tibbiy papiruslarida sakkiz yuzdan ortiq dori retseptlari hamda tashxis usullari batafsil yozilgan.</p>
+        </section>
+
+        <!-- 24-slayd (JONLI GRAFIK 5 - Radar Chart) -->
+        <section>
+            <h3>Ilm-fan va texnologiya rivoji</h3>
+            <p style="font-size: 17px; text-align:center;">Qadimgi Misrning turli sohalardagi taraqqiyot darajasi (100 ballik shkalada baholanganda). Nuqtalar ustiga bosing:</p>
+            <div class="chart-container">
+                <canvas id="fanChart"></canvas>
+            </div>
+        </section>
+
+        <!-- 25-slayd -->
+        <section>
+            <h2>Insoniyatga qoldirilgan abadiy meros</h2>
+            <p>Qadimgi Misr sivilizatsiyasi oʻzining 365 kunlik quyosh taqvimi, geometriya qonunlari, tibbiy bilimlari, qogʻoz va yozuv madaniyati bilan zamonaviy dunyo tamadduniga poydevor qoʻydi. Nil boʻyidagi ulugʻvor obidalar inson aqli va mehnatining cheksiz qudratini abadiy namoyon etib turadi.</p>
+        </section>
+
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+<script>
+    Reveal.initialize({ hash: true, slideNumber: true, transition: 'convex' });
+
+    // 1. Aholi soni (Line Chart)
+    new Chart(document.getElementById('aholiChart'), {
+        type: 'line',
+        data: {
+            labels: ['Mil. avv. 3000-y.', 'Mil. avv. 2500-y.', 'Mil. avv. 1800-y.', 'Mil. avv. 1200-y.', 'Mil. avv. 500-y.'],
+            datasets: [{
+                label: 'Aholi soni (million kishi)',
+                data: [1.0, 1.6, 2.1, 3.2, 4.5],
+                borderColor: '#d4af37',
+                backgroundColor: 'rgba(212, 175, 55, 0.3)',
+                fill: true,
+                tension: 0.3,
+                pointRadius: 6
+            }]
+        },
+        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { labels: { color: '#fff' } } }, scales: { y: { ticks: { color: '#fff' } }, x: { ticks: { color: '#fff' } } } }
+    });
+
+    // 2. Jamiyat qatlamlari (Polar Area)
+    new Chart(document.getElementById('jamiyatChart'), {
+        type: 'polarArea',
+        data: {
+            labels: ['Dehqonlar (70%)', 'Hunarmand va savdogarlar (15%)', 'Qullar va xizmatchilar (8%)', 'Harbiylar va mirzolar (5%)', 'Zodagon va kohinlar (2%)'],
+            datasets: [{
+                data: [70, 15, 8, 5, 2],
+                backgroundColor: ['rgba(46, 204, 113, 0.7)', 'rgba(241, 196, 15, 0.7)', 'rgba(149, 165, 166, 0.7)', 'rgba(52, 152, 219, 0.7)', 'rgba(231, 76, 60, 0.7)']
+            }]
+        },
+        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'right', labels: { color: '#fff' } } }, scales: { r: { ticks: { display: false } } } }
+    });
+
+    // 3. Piramida tosh hajmi (Bar Chart)
+    new Chart(document.getElementById('toshChart'), {
+        type: 'bar',
+        data: {
+            labels: ['Xeops (2.58 mln m³)', 'Xefren (2.21 mln m³)', 'Qizil piramida (1.69 mln m³)', 'Egik piramida (1.23 mln m³)', 'Joser (0.33 mln m³)'],
+            datasets: [{
+                label: 'Tosh hajmi (million m³)',
+                data: [2.58, 2.21, 1.69, 1.23, 0.33],
+                backgroundColor: ['#d4af37', '#e67e22', '#c0392b', '#2980b9', '#8e44ad']
+            }]
+        },
+        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { labels: { color: '#fff' } } }, scales: { y: { ticks: { color: '#fff' } }, x: { ticks: { color: '#fff' } } } }
+    });
+
+    // 4. Tashqi savdo (Doughnut Chart)
+    new Chart(document.getElementById('savdoChart'), {
+        type: 'doughnut',
+        data: {
+            labels: ['Livan kedr yogʻochi (35%)', 'Nubiya oltini va fil suyagi (30%)', 'Kipr mis va kumushi (20%)', 'Punt xushboʻy tutatqilari (15%)'],
+            datasets: [{
+                data: [35, 30, 20, 15],
+                backgroundColor: ['#27ae60', '#f39c12', '#2980b9', '#8e44ad']
+            }]
+        },
+        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'right', labels: { color: '#fff' } } } }
+    });
+
+    // 5. Ilm-fan (Radar Chart)
+    new Chart(document.getElementById('fanChart'), {
+        type: 'radar',
+        data: {
+            labels: ['Meʼmorchilik', 'Tibbiyot va Anatomiya', 'Astronomiya va Taqvim', 'Geometriya', 'Irrigatsiya', 'Metallurgiya'],
+            datasets: [{
+                label: 'Rivojlanish darajasi (100 balldan)',
+                data: [98, 90, 95, 92, 96, 78],
+                backgroundColor: 'rgba(212, 175, 55, 0.4)',
+                borderColor: '#d4af37',
+                pointBackgroundColor: '#fff'
+            }]
+        },
+        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { labels: { color: '#fff' } } }, scales: { r: { pointLabels: { color: '#fff', font: { size: 13 } }, grid: { color: 'rgba(255,255,255,0.2)' }, angleLines: { color: 'rgba(255,255,255,0.2)' }, ticks: { display: false } } } }
+    });
+</script>
+</body>
+</html>
